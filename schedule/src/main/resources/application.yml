@@ -1,0 +1,13 @@
+server:
+  port: 8081
+
+
+frame:
+  xxljob:
+    task:
+      api: http://localhost:8080/xxl-job-admin/jobinfo
+      executors: http://localhost:8080/xxl-job-admin
+
+spring:
+  application:
+    name: QQQschedule
